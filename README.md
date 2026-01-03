@@ -17,6 +17,9 @@ The pipeline follows this data flow:
 5. **Consumer Lambda:** Polls the SQS queue, retrieves the S3 event details, downloads the CSV file, and parses the data.
 6. **Amazon DynamoDB:** Stores the parsed records for analysis.
 
+<>
+
+
 ## Tech Stack
 
 * **Cloud Provider:** AWS
